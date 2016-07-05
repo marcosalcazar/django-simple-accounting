@@ -53,7 +53,10 @@ setup(
         'accounting',
     ],
     include_package_data=True,
-    install_requires=["django-model-utils>=2.0",],
+    install_requires=[
+        "django-model-utils>=2.0",
+        "django-mptt==0.8.4",
+    ],
     license="MIT",
     zip_safe=False,
     keywords='django-simple-accounting',
